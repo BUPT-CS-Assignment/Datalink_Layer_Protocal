@@ -1,0 +1,678 @@
+000.000 =============================================================
+000.000                     Station B                               
+000.000 -------------------------------------------------------------
+000.000 Protocol.lib, version 4.0, jiangyanjun0718@bupt.edu.cn
+000.000 Channel: 8000 bps, 270 ms propagation delay, bit error rate 1.0E-05
+000.000 Log file "./Datalink-B.log", TCP port 59144, debug mask 0x03
+000.000 Station B is connecting station A (TCP port 59144) ... Done.
+000.906 New epoch: Tue May 17 11:32:57 2022
+000.906 =================================================================
+000.906 
+000.906 Designed by Jianxff, build: May 17 2022  11:32:42
+000.906 Send DATA 0 with ACK 15, ID 20000
+001.147 Send DATA 1 with ACK 15, ID 20001
+001.418 Send DATA 2 with ACK 15, ID 20002
+001.449 [1;37mRecv DATA 0 with [1;32mACK 15[1;37m, ID 10000[0m
+001.675 Send DATA 3 with ACK 0, ID 20003
+001.720 [1;37mRecv DATA 1 with [1;32mACK 15[1;37m, ID 10001[0m
+001.946 Send DATA 4 with ACK 1, ID 20004
+001.976 [1;37mRecv DATA 2 with [1;32mACK 15[1;37m, ID 10002[0m
+001.991 [1;35mRecv NAK 0[0m
+001.991 Send DATA 0 with ACK 2, ID 20000
+002.248 [1;37mRecv DATA 3 with [1;32mACK 15[1;37m, ID 10003[0m
+002.474 Send DATA 5 with ACK 3, ID 20005
+002.519 [1;37mRecv DATA 4 with [1;32mACK 15[1;37m, ID 10004[0m
+002.730 Send DATA 6 with ACK 4, ID 20006
+002.791 [1;37mRecv DATA 5 with [1;32mACK 15[1;37m, ID 10005[0m
+003.002 Send DATA 7 with ACK 5, ID 20007
+003.047 [1;37mRecv DATA 6 with [1;32mACK 15[1;37m, ID 10006[0m
+003.318 [1;37mRecv DATA 7 with [1;32mACK 15[1;37m, ID 10007[0m
+003.318 .... 8 packets received, 7706 bps, 96.33%, Err 0 (0.0e+00)
+003.590 [1;37mRecv DATA 8 with [1;32mACK 4[1;37m, ID 10008[0m
+003.590 Send DATA 8 with ACK 8, ID 20008
+003.816 Send DATA 9 with ACK 8, ID 20009
+003.846 [1;37mRecv DATA 9 with [1;32mACK 5[1;37m, ID 10009[0m
+004.088 Send DATA 10 with ACK 9, ID 20010
+004.118 [1;37mRecv DATA 10 with [1;32mACK 6[1;37m, ID 10010[0m
+004.344 Send DATA 11 with ACK 10, ID 20011
+004.374 [1;37mRecv DATA 11 with [1;32mACK 7[1;37m, ID 10011[0m
+004.615 Send DATA 12 with ACK 11, ID 20012
+004.646 [1;37mRecv DATA 12 with [1;32mACK 7[1;37m, ID 10012[0m
+004.872 Send DATA 13 with ACK 12, ID 20013
+004.902 [1;37mRecv DATA 13 with [1;32mACK 8[1;37m, ID 10013[0m
+005.143 Send DATA 14 with ACK 13, ID 20014
+005.173 [1;37mRecv DATA 14 with [1;32mACK 9[1;37m, ID 10014[0m
+005.400 Send DATA 15 with ACK 14, ID 20015
+005.430 [1;37mRecv DATA 15 with [1;32mACK 10[1;37m, ID 10015[0m
+005.430 .... 16 packets received, 7732 bps, 96.65%, Err 0 (0.0e+00)
+005.671 Send DATA 0 with ACK 15, ID 20016
+005.701 [1;37mRecv DATA 0 with [1;32mACK 11[1;37m, ID 10016[0m
+005.927 Send DATA 1 with ACK 0, ID 20017
+005.942 [1;37mRecv DATA 1 with [1;32mACK 12[1;37m, ID 10017[0m
+006.199 Send DATA 2 with ACK 1, ID 20018
+006.229 [1;31m**** Receiver Error, Bad CRC Checksum[0m
+006.229 [1;34mSend NAK 2[0m
+006.470 Send DATA 3 with ACK 1, ID 20019
+006.485 [1;37mRecv DATA 3 with [1;32mACK 14[1;37m, ID 10019[0m
+006.726 Send DATA 4 with ACK 1, ID 20020
+006.756 [1;37mRecv DATA 4 with [1;32mACK 15[1;37m, ID 10020[0m
+006.998 Send DATA 5 with ACK 1, ID 20021
+007.013 [1;37mRecv DATA 5 with [1;32mACK 0[1;37m, ID 10021[0m
+007.254 Send DATA 6 with ACK 1, ID 20022
+007.269 [1;37mRecv DATA 6 with [1;32mACK 1[1;37m, ID 10022[0m
+007.526 [1;37mRecv DATA 2 with [1;32mACK 2[1;37m, ID 10018[0m
+007.526 .... 19 packets received, 6143 bps, 76.79%, Err 1 (1.9e-05)
+007.526 Send DATA 7 with ACK 6, ID 20023
+007.782 Send DATA 8 with ACK 6, ID 20024
+007.812 [1;37mRecv DATA 7 with [1;32mACK 3[1;37m, ID 10023[0m
+008.054 Send DATA 9 with ACK 7, ID 20025
+008.069 [1;37mRecv DATA 8 with [1;32mACK 4[1;37m, ID 10024[0m
+008.310 Send DATA 10 with ACK 8, ID 20026
+008.340 [1;37mRecv DATA 9 with [1;32mACK 5[1;37m, ID 10025[0m
+008.581 Send DATA 11 with ACK 9, ID 20027
+008.612 [1;37mRecv DATA 10 with [1;32mACK 7[1;37m, ID 10026[0m
+008.838 Send DATA 12 with ACK 10, ID 20028
+008.883 [1;37mRecv DATA 11 with [1;32mACK 7[1;37m, ID 10027[0m
+009.109 Send DATA 13 with ACK 11, ID 20029
+009.139 [1;37mRecv DATA 12 with [1;32mACK 8[1;37m, ID 10028[0m
+009.381 Send DATA 14 with ACK 12, ID 20030
+009.411 [1;37mRecv DATA 13 with [1;32mACK 9[1;37m, ID 10029[0m
+009.637 Send DATA 15 with ACK 13, ID 20031
+009.682 [1;37mRecv DATA 14 with [1;32mACK 10[1;37m, ID 10030[0m
+009.682 .... 31 packets received, 7478 bps, 93.47%, Err 1 (1.4e-05)
+009.908 Send DATA 0 with ACK 14, ID 20032
+009.954 [1;37mRecv DATA 15 with [1;32mACK 11[1;37m, ID 10031[0m
+010.165 Send DATA 1 with ACK 15, ID 20033
+010.210 [1;37mRecv DATA 0 with [1;32mACK 12[1;37m, ID 10032[0m
+010.436 Send DATA 2 with ACK 0, ID 20034
+010.481 [1;37mRecv DATA 1 with [1;32mACK 13[1;37m, ID 10033[0m
+010.692 Send DATA 3 with ACK 1, ID 20035
+010.738 [1;37mRecv DATA 2 with [1;32mACK 14[1;37m, ID 10034[0m
+010.964 Send DATA 4 with ACK 2, ID 20036
+010.994 [1;37mRecv DATA 3 with [1;32mACK 15[1;37m, ID 10035[0m
+011.220 Send DATA 5 with ACK 3, ID 20037
+011.265 [1;37mRecv DATA 4 with [1;32mACK 0[1;37m, ID 10036[0m
+011.492 Send DATA 6 with ACK 4, ID 20038
+011.537 [1;37mRecv DATA 5 with [1;32mACK 1[1;37m, ID 10037[0m
+011.748 Send DATA 7 with ACK 5, ID 20039
+011.778 [1;37mRecv DATA 6 with [1;32mACK 2[1;37m, ID 10038[0m
+011.778 .... 39 packets received, 7545 bps, 94.31%, Err 1 (1.2e-05)
+012.020 Send DATA 8 with ACK 6, ID 20040
+012.050 [1;37mRecv DATA 7 with [1;32mACK 3[1;37m, ID 10039[0m
+012.276 Send DATA 9 with ACK 7, ID 20041
+012.321 [1;37mRecv DATA 8 with [1;32mACK 4[1;37m, ID 10040[0m
+012.547 Send DATA 10 with ACK 8, ID 20042
+012.592 [1;37mRecv DATA 9 with [1;32mACK 5[1;37m, ID 10041[0m
+012.804 Send DATA 11 with ACK 9, ID 20043
+012.849 [1;37mRecv DATA 10 with [1;32mACK 6[1;37m, ID 10042[0m
+013.075 Send DATA 12 with ACK 10, ID 20044
+013.120 [1;37mRecv DATA 11 with [1;32mACK 7[1;37m, ID 10043[0m
+013.331 Send DATA 13 with ACK 11, ID 20045
+013.377 [1;37mRecv DATA 12 with [1;32mACK 8[1;37m, ID 10044[0m
+013.603 Send DATA 14 with ACK 12, ID 20046
+013.633 [1;37mRecv DATA 13 with [1;32mACK 9[1;37m, ID 10045[0m
+013.859 Send DATA 15 with ACK 13, ID 20047
+013.904 [1;37mRecv DATA 14 with [1;32mACK 10[1;37m, ID 10046[0m
+013.904 .... 47 packets received, 7572 bps, 94.65%, Err 1 (9.6e-06)
+014.131 Send DATA 0 with ACK 14, ID 20048
+014.161 [1;37mRecv DATA 15 with [1;32mACK 11[1;37m, ID 10047[0m
+014.387 Send DATA 1 with ACK 15, ID 20049
+014.432 [1;37mRecv DATA 0 with [1;32mACK 12[1;37m, ID 10048[0m
+014.658 Send DATA 2 with ACK 0, ID 20050
+014.688 [1;37mRecv DATA 1 with [1;32mACK 13[1;37m, ID 10049[0m
+014.915 Send DATA 3 with ACK 1, ID 20051
+014.960 [1;37mRecv DATA 2 with [1;32mACK 14[1;37m, ID 10050[0m
+015.186 Send DATA 4 with ACK 2, ID 20052
+015.216 [1;37mRecv DATA 3 with [1;32mACK 15[1;37m, ID 10051[0m
+015.442 Send DATA 5 with ACK 3, ID 20053
+015.488 [1;37mRecv DATA 4 with [1;32mACK 0[1;37m, ID 10052[0m
+015.714 Send DATA 6 with ACK 4, ID 20054
+015.744 [1;37mRecv DATA 5 with [1;32mACK 1[1;37m, ID 10053[0m
+015.970 Send DATA 7 with ACK 5, ID 20055
+016.015 [1;37mRecv DATA 6 with [1;32mACK 2[1;37m, ID 10054[0m
+016.015 .... 55 packets received, 7599 bps, 94.99%, Err 1 (8.3e-06)
+016.242 Send DATA 8 with ACK 6, ID 20056
+016.287 [1;37mRecv DATA 7 with [1;32mACK 3[1;37m, ID 10055[0m
+016.498 Send DATA 9 with ACK 7, ID 20057
+016.543 [1;37mRecv DATA 8 with [1;32mACK 4[1;37m, ID 10056[0m
+016.769 Send DATA 10 with ACK 8, ID 20058
+016.799 [1;37mRecv DATA 9 with [1;32mACK 5[1;37m, ID 10057[0m
+017.026 Send DATA 11 with ACK 9, ID 20059
+017.071 [1;37mRecv DATA 10 with [1;32mACK 6[1;37m, ID 10058[0m
+017.297 Send DATA 12 with ACK 10, ID 20060
+017.327 [1;37mRecv DATA 11 with [1;32mACK 7[1;37m, ID 10059[0m
+017.553 Send DATA 13 with ACK 11, ID 20061
+017.599 [1;37mRecv DATA 12 with [1;32mACK 8[1;37m, ID 10060[0m
+017.825 Send DATA 14 with ACK 12, ID 20062
+017.870 [1;37mRecv DATA 13 with [1;32mACK 9[1;37m, ID 10061[0m
+018.081 Send DATA 15 with ACK 13, ID 20063
+018.126 [1;37mRecv DATA 14 with [1;32mACK 10[1;37m, ID 10062[0m
+018.126 .... 63 packets received, 7619 bps, 95.24%, Err 1 (7.3e-06)
+018.353 Send DATA 0 with ACK 14, ID 20064
+018.398 [1;37mRecv DATA 15 with [1;32mACK 11[1;37m, ID 10063[0m
+018.609 Send DATA 1 with ACK 15, ID 20065
+018.639 [1;37mRecv DATA 0 with [1;32mACK 12[1;37m, ID 10064[0m
+018.880 Send DATA 2 with ACK 0, ID 20066
+018.911 [1;37mRecv DATA 1 with [1;32mACK 13[1;37m, ID 10065[0m
+019.137 Send DATA 3 with ACK 1, ID 20067
+019.167 [1;37mRecv DATA 2 with [1;32mACK 14[1;37m, ID 10066[0m
+019.408 Send DATA 4 with ACK 2, ID 20068
+019.439 [1;37mRecv DATA 3 with [1;32mACK 15[1;37m, ID 10067[0m
+019.665 Send DATA 5 with ACK 3, ID 20069
+019.710 [1;31m**** Receiver Error, Bad CRC Checksum[0m
+019.710 [1;34mSend NAK 4[0m
+019.936 Send DATA 6 with ACK 3, ID 20070
+019.967 [1;37mRecv DATA 5 with [1;32mACK 1[1;37m, ID 10069[0m
+020.208 Send DATA 7 with ACK 3, ID 20071
+020.223 [1;37mRecv DATA 6 with [1;32mACK 2[1;37m, ID 10070[0m
+020.464 Send DATA 8 with ACK 3, ID 20072
+020.494 [1;37mRecv DATA 7 with [1;32mACK 3[1;37m, ID 10071[0m
+020.735 Send DATA 9 with ACK 3, ID 20073
+020.750 [1;37mRecv DATA 8 with [1;32mACK 4[1;37m, ID 10072[0m
+020.992 Send DATA 10 with ACK 3, ID 20074
+021.022 [1;37mRecv DATA 4 with [1;32mACK 5[1;37m, ID 10068[0m
+021.022 .... 69 packets received, 7126 bps, 89.08%, Err 2 (1.2e-05)
+021.263 Send DATA 11 with ACK 8, ID 20075
+021.278 [1;37mRecv DATA 9 with [1;32mACK 6[1;37m, ID 10073[0m
+021.519 Send DATA 12 with ACK 9, ID 20076
+021.550 [1;37mRecv DATA 10 with [1;32mACK 7[1;37m, ID 10074[0m
+021.791 Send DATA 13 with ACK 10, ID 20077
+021.806 [1;37mRecv DATA 11 with [1;32mACK 8[1;37m, ID 10075[0m
+022.047 Send DATA 14 with ACK 11, ID 20078
+022.318 Send DATA 15 with ACK 11, ID 20079
+022.364 [1;37mRecv DATA 12 with [1;32mACK 11[1;37m, ID 10076[0m
+022.575 Send DATA 0 with ACK 12, ID 20080
+022.635 [1;37mRecv DATA 13 with [1;32mACK 11[1;37m, ID 10077[0m
+022.846 Send DATA 1 with ACK 13, ID 20081
+022.891 [1;37mRecv DATA 14 with [1;32mACK 12[1;37m, ID 10078[0m
+023.102 Send DATA 2 with ACK 14, ID 20082
+023.163 [1;37mRecv DATA 15 with [1;32mACK 13[1;37m, ID 10079[0m
+023.163 .... 80 packets received, 7457 bps, 93.21%, Err 2 (1.1e-05)
+023.374 Send DATA 3 with ACK 15, ID 20083
+023.419 [1;37mRecv DATA 0 with [1;32mACK 14[1;37m, ID 10080[0m
+023.630 Send DATA 4 with ACK 0, ID 20084
+023.690 [1;37mRecv DATA 1 with [1;32mACK 15[1;37m, ID 10081[0m
+023.901 Send DATA 5 with ACK 1, ID 20085
+023.947 [1;37mRecv DATA 2 with [1;32mACK 0[1;37m, ID 10082[0m
+024.158 Send DATA 6 with ACK 2, ID 20086
+024.218 [1;37mRecv DATA 3 with [1;32mACK 1[1;37m, ID 10083[0m
+024.429 Send DATA 7 with ACK 3, ID 20087
+024.474 [1;37mRecv DATA 4 with [1;32mACK 2[1;37m, ID 10084[0m
+024.685 Send DATA 8 with ACK 4, ID 20088
+024.746 [1;37mRecv DATA 5 with [1;32mACK 3[1;37m, ID 10085[0m
+024.957 Send DATA 9 with ACK 5, ID 20089
+025.002 [1;37mRecv DATA 6 with [1;32mACK 4[1;37m, ID 10086[0m
+025.213 Send DATA 10 with ACK 6, ID 20090
+025.273 [1;37mRecv DATA 7 with [1;32mACK 5[1;37m, ID 10087[0m
+025.273 .... 88 packets received, 7484 bps, 93.55%, Err 2 (1.0e-05)
+025.484 Send DATA 11 with ACK 7, ID 20091
+025.545 [1;37mRecv DATA 8 with [1;32mACK 6[1;37m, ID 10088[0m
+025.741 Send DATA 12 with ACK 8, ID 20092
+025.801 [1;37mRecv DATA 9 with [1;32mACK 7[1;37m, ID 10089[0m
+026.012 Send DATA 13 with ACK 9, ID 20093
+026.057 [1;37mRecv DATA 10 with [1;32mACK 8[1;37m, ID 10090[0m
+026.283 Send DATA 14 with ACK 10, ID 20094
+026.344 [1;31m**** Receiver Error, Bad CRC Checksum[0m
+026.344 [1;34mSend NAK 11[0m
+026.540 Send DATA 15 with ACK 10, ID 20095
+026.585 [1;37mRecv DATA 12 with [1;32mACK 10[1;37m, ID 10092[0m
+026.811 Send DATA 0 with ACK 10, ID 20096
+026.871 [1;37mRecv DATA 13 with [1;32mACK 11[1;37m, ID 10093[0m
+027.082 Send DATA 1 with ACK 10, ID 20097
+027.113 [1;37mRecv DATA 14 with [1;32mACK 12[1;37m, ID 10094[0m
+027.339 Send DATA 2 with ACK 10, ID 20098
+027.384 [1;37mRecv DATA 15 with [1;32mACK 13[1;37m, ID 10095[0m
+027.610 Send DATA 3 with ACK 10, ID 20099
+027.640 [1;37mRecv DATA 11 with [1;32mACK 14[1;37m, ID 10091[0m
+027.640 .... 92 packets received, 7124 bps, 89.05%, Err 4 (1.9e-05)
+027.867 Send DATA 4 with ACK 15, ID 20100
+027.912 [1;37mRecv DATA 0 with [1;32mACK 15[1;37m, ID 10096[0m
+028.138 Send DATA 5 with ACK 0, ID 20101
+028.168 [1;37mRecv DATA 1 with [1;32mACK 0[1;37m, ID 10097[0m
+028.394 Send DATA 6 with ACK 1, ID 20102
+028.440 [1;37mRecv DATA 2 with [1;32mACK 1[1;37m, ID 10098[0m
+028.666 Send DATA 7 with ACK 2, ID 20103
+028.922 Send DATA 8 with ACK 2, ID 20104
+028.967 [1;37mRecv DATA 3 with [1;32mACK 4[1;37m, ID 10099[0m
+029.193 Send DATA 9 with ACK 3, ID 20105
+029.224 [1;37mRecv DATA 4 with [1;32mACK 4[1;37m, ID 10100[0m
+029.450 Send DATA 10 with ACK 4, ID 20106
+029.495 [1;37mRecv DATA 5 with [1;32mACK 5[1;37m, ID 10101[0m
+029.721 Send DATA 11 with ACK 5, ID 20107
+029.751 [1;37mRecv DATA 6 with [1;32mACK 6[1;37m, ID 10102[0m
+029.751 .... 103 packets received, 7386 bps, 92.33%, Err 4 (1.8e-05)
+029.977 Send DATA 12 with ACK 6, ID 20108
+030.023 [1;37mRecv DATA 7 with [1;32mACK 7[1;37m, ID 10103[0m
+030.249 Send DATA 13 with ACK 7, ID 20109
+030.294 [1;37mRecv DATA 8 with [1;32mACK 8[1;37m, ID 10104[0m
+030.505 Send DATA 14 with ACK 8, ID 20110
+030.550 [1;37mRecv DATA 9 with [1;32mACK 9[1;37m, ID 10105[0m
+030.776 Send DATA 15 with ACK 9, ID 20111
+030.822 [1;37mRecv DATA 10 with [1;32mACK 10[1;37m, ID 10106[0m
+031.033 Send DATA 0 with ACK 10, ID 20112
+031.078 [1;37mRecv DATA 11 with [1;32mACK 11[1;37m, ID 10107[0m
+031.304 Send DATA 1 with ACK 11, ID 20113
+031.349 [1;37mRecv DATA 12 with [1;32mACK 12[1;37m, ID 10108[0m
+031.560 Send DATA 2 with ACK 12, ID 20114
+031.621 [1;37mRecv DATA 13 with [1;32mACK 13[1;37m, ID 10109[0m
+031.832 Send DATA 3 with ACK 13, ID 20115
+031.892 [1;37mRecv DATA 14 with [1;32mACK 14[1;37m, ID 10110[0m
+031.892 .... 111 packets received, 7405 bps, 92.56%, Err 4 (1.6e-05)
+032.088 Send DATA 4 with ACK 14, ID 20116
+032.149 [1;37mRecv DATA 15 with [1;32mACK 15[1;37m, ID 10111[0m
+032.360 Send DATA 5 with ACK 15, ID 20117
+032.405 [1;37mRecv DATA 0 with [1;32mACK 0[1;37m, ID 10112[0m
+032.616 Send DATA 6 with ACK 0, ID 20118
+032.661 [1;37mRecv DATA 1 with [1;32mACK 1[1;37m, ID 10113[0m
+032.887 Send DATA 7 with ACK 1, ID 20119
+032.933 [1;37mRecv DATA 2 with [1;32mACK 2[1;37m, ID 10114[0m
+033.144 Send DATA 8 with ACK 2, ID 20120
+033.189 [1;37mRecv DATA 3 with [1;32mACK 3[1;37m, ID 10115[0m
+033.415 Send DATA 9 with ACK 3, ID 20121
+033.460 [1;37mRecv DATA 4 with [1;32mACK 4[1;37m, ID 10116[0m
+033.671 Send DATA 10 with ACK 4, ID 20122
+033.717 [1;37mRecv DATA 5 with [1;32mACK 5[1;37m, ID 10117[0m
+033.943 Send DATA 11 with ACK 5, ID 20123
+033.988 [1;37mRecv DATA 6 with [1;32mACK 6[1;37m, ID 10118[0m
+033.988 .... 119 packets received, 7431 bps, 92.89%, Err 4 (1.5e-05)
+034.199 Send DATA 12 with ACK 6, ID 20124
+034.245 [1;37mRecv DATA 7 with [1;32mACK 7[1;37m, ID 10119[0m
+034.471 Send DATA 13 with ACK 7, ID 20125
+034.516 [1;37mRecv DATA 8 with [1;32mACK 8[1;37m, ID 10120[0m
+034.727 Send DATA 14 with ACK 8, ID 20126
+034.772 [1;37mRecv DATA 9 with [1;32mACK 9[1;37m, ID 10121[0m
+034.998 Send DATA 15 with ACK 9, ID 20127
+035.044 [1;37mRecv DATA 10 with [1;32mACK 10[1;37m, ID 10122[0m
+035.255 Send DATA 0 with ACK 10, ID 20128
+035.300 [1;31m**** Receiver Error, Bad CRC Checksum[0m
+035.300 [1;34mSend NAK 11[0m
+035.315 [1;35mRecv NAK 12[0m
+035.315 Send DATA 12 with ACK 10, ID 20124
+035.571 [1;37mRecv DATA 12 with [1;32mACK 11[1;37m, ID 10124[0m
+035.798 Send DATA 1 with ACK 10, ID 20129
+035.843 [1;37mRecv DATA 13 with [1;32mACK 11[1;37m, ID 10125[0m
+036.054 Send DATA 2 with ACK 10, ID 20130
+036.099 [1;37mRecv DATA 14 with [1;32mACK 11[1;37m, ID 10126[0m
+036.325 Send DATA 3 with ACK 10, ID 20131
+036.370 [1;31m**** Receiver Error, Bad CRC Checksum[0m
+036.627 [1;37mRecv DATA 11 with [1;32mACK 11[1;37m, ID 10123[0m
+036.627 .... 124 packets received, 7167 bps, 89.58%, Err 6 (2.1e-05)
+036.913 [1;37mRecv DATA 0 with [1;32mACK 0[1;37m, ID 10128[0m
+036.913 [1;34mSend NAK 15[0m
+036.913 Send DATA 4 with ACK 14, ID 20132
+037.139 Send DATA 5 with ACK 14, ID 20133
+037.170 [1;37mRecv DATA 1 with [1;32mACK 1[1;37m, ID 10129[0m
+037.411 Send DATA 6 with ACK 14, ID 20134
+037.426 [1;37mRecv DATA 2 with [1;32mACK 2[1;37m, ID 10130[0m
+037.667 Send DATA 7 with ACK 14, ID 20135
+037.698 [1;37mRecv DATA 15 with [1;32mACK 3[1;37m, ID 10127[0m
+037.939 Send DATA 8 with ACK 2, ID 20136
+037.984 [1;37mRecv DATA 3 with [1;32mACK 4[1;37m, ID 10131[0m
+038.195 Send DATA 9 with ACK 3, ID 20137
+038.241 [1;37mRecv DATA 4 with [1;32mACK 4[1;37m, ID 10132[0m
+038.467 Send DATA 10 with ACK 4, ID 20138
+038.512 [1;37mRecv DATA 5 with [1;32mACK 5[1;37m, ID 10133[0m
+038.723 Send DATA 11 with ACK 5, ID 20139
+038.768 [1;37mRecv DATA 6 with [1;32mACK 6[1;37m, ID 10134[0m
+038.768 .... 135 packets received, 7358 bps, 91.97%, Err 6 (2.0e-05)
+038.994 Send DATA 12 with ACK 6, ID 20140
+039.040 [1;37mRecv DATA 7 with [1;32mACK 8[1;37m, ID 10135[0m
+039.251 Send DATA 13 with ACK 7, ID 20141
+039.296 [1;37mRecv DATA 8 with [1;32mACK 8[1;37m, ID 10136[0m
+039.522 Send DATA 14 with ACK 8, ID 20142
+039.567 [1;37mRecv DATA 9 with [1;32mACK 9[1;37m, ID 10137[0m
+039.778 Send DATA 15 with ACK 9, ID 20143
+039.839 [1;37mRecv DATA 10 with [1;32mACK 10[1;37m, ID 10138[0m
+040.050 Send DATA 0 with ACK 10, ID 20144
+040.095 [1;37mRecv DATA 11 with [1;32mACK 11[1;37m, ID 10139[0m
+040.306 Send DATA 1 with ACK 11, ID 20145
+040.367 [1;37mRecv DATA 12 with [1;32mACK 12[1;37m, ID 10140[0m
+040.578 Send DATA 2 with ACK 12, ID 20146
+040.623 [1;37mRecv DATA 13 with [1;32mACK 13[1;37m, ID 10141[0m
+040.834 Send DATA 3 with ACK 13, ID 20147
+040.894 [1;37mRecv DATA 14 with [1;32mACK 14[1;37m, ID 10142[0m
+040.894 .... 143 packets received, 7377 bps, 92.21%, Err 6 (1.9e-05)
+041.105 Send DATA 4 with ACK 14, ID 20148
+041.151 [1;37mRecv DATA 15 with [1;32mACK 15[1;37m, ID 10143[0m
+041.362 Send DATA 5 with ACK 15, ID 20149
+041.422 [1;37mRecv DATA 0 with [1;32mACK 0[1;37m, ID 10144[0m
+041.437 [1;35mRecv NAK 1[0m
+041.437 Send DATA 1 with ACK 0, ID 20145
+041.693 [1;37mRecv DATA 1 with [1;32mACK 0[1;37m, ID 10145[0m
+041.904 Send DATA 6 with ACK 1, ID 20150
+041.949 [1;37mRecv DATA 2 with [1;32mACK 0[1;37m, ID 10146[0m
+042.161 Send DATA 7 with ACK 2, ID 20151
+042.221 [1;37mRecv DATA 3 with [1;32mACK 0[1;37m, ID 10147[0m
+042.432 Send DATA 8 with ACK 3, ID 20152
+042.477 [1;37mRecv DATA 4 with [1;32mACK 0[1;37m, ID 10148[0m
+042.749 [1;37mRecv DATA 5 with [1;32mACK 0[1;37m, ID 10149[0m
+043.020 [1;37mRecv DATA 6 with [1;32mACK 5[1;37m, ID 10150[0m
+043.020 .... 151 packets received, 7393 bps, 92.42%, Err 6 (1.8e-05)
+043.020 Send DATA 9 with ACK 6, ID 20153
+043.246 Send DATA 10 with ACK 6, ID 20154
+043.291 [1;37mRecv DATA 7 with [1;32mACK 6[1;37m, ID 10151[0m
+043.517 Send DATA 11 with ACK 7, ID 20155
+043.532 [1;37mRecv DATA 8 with [1;32mACK 7[1;37m, ID 10152[0m
+043.774 Send DATA 12 with ACK 8, ID 20156
+043.819 [1;37mRecv DATA 9 with [1;32mACK 8[1;37m, ID 10153[0m
+044.045 Send DATA 13 with ACK 9, ID 20157
+044.060 [1;37mRecv DATA 10 with [1;32mACK 8[1;37m, ID 10154[0m
+044.301 Send DATA 14 with ACK 10, ID 20158
+044.332 [1;37mRecv DATA 11 with [1;32mACK 9[1;37m, ID 10155[0m
+044.573 Send DATA 15 with ACK 11, ID 20159
+044.603 [1;37mRecv DATA 12 with [1;32mACK 10[1;37m, ID 10156[0m
+044.829 Send DATA 0 with ACK 12, ID 20160
+044.874 [1;37mRecv DATA 13 with [1;32mACK 11[1;37m, ID 10157[0m
+045.100 Send DATA 1 with ACK 13, ID 20161
+045.131 [1;37mRecv DATA 14 with [1;32mACK 12[1;37m, ID 10158[0m
+045.131 .... 159 packets received, 7411 bps, 92.64%, Err 6 (1.7e-05)
+045.357 Send DATA 2 with ACK 14, ID 20162
+045.402 [1;37mRecv DATA 15 with [1;32mACK 13[1;37m, ID 10159[0m
+045.628 Send DATA 3 with ACK 15, ID 20163
+045.658 [1;37mRecv DATA 0 with [1;32mACK 14[1;37m, ID 10160[0m
+045.900 Send DATA 4 with ACK 0, ID 20164
+045.930 [1;37mRecv DATA 1 with [1;32mACK 15[1;37m, ID 10161[0m
+046.156 Send DATA 5 with ACK 1, ID 20165
+046.186 [1;37mRecv DATA 2 with [1;32mACK 0[1;37m, ID 10162[0m
+046.427 Send DATA 6 with ACK 2, ID 20166
+046.457 [1;37mRecv DATA 3 with [1;32mACK 1[1;37m, ID 10163[0m
+046.684 Send DATA 7 with ACK 3, ID 20167
+046.714 [1;37mRecv DATA 4 with [1;32mACK 2[1;37m, ID 10164[0m
+046.955 Send DATA 8 with ACK 4, ID 20168
+046.985 [1;37mRecv DATA 5 with [1;32mACK 3[1;37m, ID 10165[0m
+047.211 Send DATA 9 with ACK 5, ID 20169
+047.242 [1;37mRecv DATA 6 with [1;32mACK 4[1;37m, ID 10166[0m
+047.242 .... 167 packets received, 7427 bps, 92.84%, Err 6 (1.6e-05)
+047.483 Send DATA 10 with ACK 6, ID 20170
+047.498 [1;37mRecv DATA 7 with [1;32mACK 5[1;37m, ID 10167[0m
+047.739 Send DATA 11 with ACK 7, ID 20171
+047.769 [1;37mRecv DATA 8 with [1;32mACK 6[1;37m, ID 10168[0m
+048.011 Send DATA 12 with ACK 8, ID 20172
+048.041 [1;37mRecv DATA 9 with [1;32mACK 7[1;37m, ID 10169[0m
+048.267 Send DATA 13 with ACK 9, ID 20173
+048.282 [1;37mRecv DATA 10 with [1;32mACK 8[1;37m, ID 10170[0m
+048.538 Send DATA 14 with ACK 10, ID 20174
+048.568 [1;37mRecv DATA 11 with [1;32mACK 9[1;37m, ID 10171[0m
+048.795 Send DATA 15 with ACK 11, ID 20175
+048.825 [1;37mRecv DATA 12 with [1;32mACK 10[1;37m, ID 10172[0m
+049.066 Send DATA 0 with ACK 12, ID 20176
+049.081 [1;37mRecv DATA 13 with [1;32mACK 11[1;37m, ID 10173[0m
+049.322 Send DATA 1 with ACK 13, ID 20177
+049.352 [1;37mRecv DATA 14 with [1;32mACK 12[1;37m, ID 10174[0m
+049.352 .... 175 packets received, 7442 bps, 93.02%, Err 6 (1.6e-05)
+049.594 Send DATA 2 with ACK 14, ID 20178
+049.624 [1;37mRecv DATA 15 with [1;32mACK 13[1;37m, ID 10175[0m
+049.850 Send DATA 3 with ACK 15, ID 20179
+049.880 [1;37mRecv DATA 0 with [1;32mACK 14[1;37m, ID 10176[0m
+050.121 Send DATA 4 with ACK 0, ID 20180
+050.151 [1;37mRecv DATA 1 with [1;32mACK 15[1;37m, ID 10177[0m
+050.378 Send DATA 5 with ACK 1, ID 20181
+050.408 [1;37mRecv DATA 2 with [1;32mACK 0[1;37m, ID 10178[0m
+050.649 Send DATA 6 with ACK 2, ID 20182
+050.679 [1;37mRecv DATA 3 with [1;32mACK 1[1;37m, ID 10179[0m
+050.905 Send DATA 7 with ACK 3, ID 20183
+050.935 [1;37mRecv DATA 4 with [1;32mACK 2[1;37m, ID 10180[0m
+051.177 Send DATA 8 with ACK 4, ID 20184
+051.207 [1;37mRecv DATA 5 with [1;32mACK 3[1;37m, ID 10181[0m
+051.433 Send DATA 9 with ACK 5, ID 20185
+051.463 [1;37mRecv DATA 6 with [1;32mACK 4[1;37m, ID 10182[0m
+051.463 .... 183 packets received, 7455 bps, 93.19%, Err 6 (1.5e-05)
+051.705 Send DATA 10 with ACK 6, ID 20186
+051.735 [1;37mRecv DATA 7 with [1;32mACK 5[1;37m, ID 10183[0m
+051.961 Send DATA 11 with ACK 7, ID 20187
+051.991 [1;37mRecv DATA 8 with [1;32mACK 6[1;37m, ID 10184[0m
+052.232 Send DATA 12 with ACK 8, ID 20188
+052.263 [1;37mRecv DATA 9 with [1;32mACK 7[1;37m, ID 10185[0m
+052.489 Send DATA 13 with ACK 9, ID 20189
+052.519 [1;37mRecv DATA 10 with [1;32mACK 8[1;37m, ID 10186[0m
+052.760 Send DATA 14 with ACK 10, ID 20190
+052.790 [1;37mRecv DATA 11 with [1;32mACK 9[1;37m, ID 10187[0m
+053.016 Send DATA 15 with ACK 11, ID 20191
+053.046 [1;37mRecv DATA 12 with [1;32mACK 10[1;37m, ID 10188[0m
+053.288 Send DATA 0 with ACK 12, ID 20192
+053.318 [1;37mRecv DATA 13 with [1;32mACK 11[1;37m, ID 10189[0m
+053.544 Send DATA 1 with ACK 13, ID 20193
+053.574 [1;37mRecv DATA 14 with [1;32mACK 12[1;37m, ID 10190[0m
+053.574 .... 191 packets received, 7468 bps, 93.35%, Err 6 (1.4e-05)
+053.815 Send DATA 2 with ACK 14, ID 20194
+053.845 [1;37mRecv DATA 15 with [1;32mACK 13[1;37m, ID 10191[0m
+054.072 Send DATA 3 with ACK 15, ID 20195
+054.102 [1;37mRecv DATA 0 with [1;32mACK 14[1;37m, ID 10192[0m
+054.343 Send DATA 4 with ACK 0, ID 20196
+054.373 [1;37mRecv DATA 1 with [1;32mACK 15[1;37m, ID 10193[0m
+054.599 Send DATA 5 with ACK 1, ID 20197
+054.629 [1;37mRecv DATA 2 with [1;32mACK 0[1;37m, ID 10194[0m
+054.871 Send DATA 6 with ACK 2, ID 20198
+054.901 [1;37mRecv DATA 3 with [1;32mACK 1[1;37m, ID 10195[0m
+055.127 Send DATA 7 with ACK 3, ID 20199
+055.157 [1;37mRecv DATA 4 with [1;32mACK 2[1;37m, ID 10196[0m
+055.398 Send DATA 8 with ACK 4, ID 20200
+055.428 [1;37mRecv DATA 5 with [1;32mACK 3[1;37m, ID 10197[0m
+055.655 Send DATA 9 with ACK 5, ID 20201
+055.700 [1;37mRecv DATA 6 with [1;32mACK 4[1;37m, ID 10198[0m
+055.700 .... 199 packets received, 7477 bps, 93.46%, Err 6 (1.4e-05)
+055.926 Send DATA 10 with ACK 6, ID 20202
+055.956 [1;37mRecv DATA 7 with [1;32mACK 5[1;37m, ID 10199[0m
+056.182 Send DATA 11 with ACK 7, ID 20203
+056.228 [1;37mRecv DATA 8 with [1;32mACK 6[1;37m, ID 10200[0m
+056.454 Send DATA 12 with ACK 8, ID 20204
+056.484 [1;37mRecv DATA 9 with [1;32mACK 7[1;37m, ID 10201[0m
+056.710 Send DATA 13 with ACK 9, ID 20205
+056.755 [1;37mRecv DATA 10 with [1;32mACK 8[1;37m, ID 10202[0m
+056.981 Send DATA 14 with ACK 10, ID 20206
+057.012 [1;37mRecv DATA 11 with [1;32mACK 9[1;37m, ID 10203[0m
+057.238 Send DATA 15 with ACK 11, ID 20207
+057.283 [1;37mRecv DATA 12 with [1;32mACK 10[1;37m, ID 10204[0m
+057.509 Send DATA 0 with ACK 12, ID 20208
+057.539 [1;37mRecv DATA 13 with [1;32mACK 11[1;37m, ID 10205[0m
+057.765 Send DATA 1 with ACK 13, ID 20209
+057.811 [1;37mRecv DATA 14 with [1;32mACK 12[1;37m, ID 10206[0m
+057.811 .... 207 packets received, 7488 bps, 93.59%, Err 6 (1.3e-05)
+058.037 Send DATA 2 with ACK 14, ID 20210
+058.067 [1;37mRecv DATA 15 with [1;32mACK 13[1;37m, ID 10207[0m
+058.293 Send DATA 3 with ACK 15, ID 20211
+058.338 [1;37mRecv DATA 0 with [1;32mACK 14[1;37m, ID 10208[0m
+058.564 Send DATA 4 with ACK 0, ID 20212
+058.595 [1;37mRecv DATA 1 with [1;32mACK 15[1;37m, ID 10209[0m
+058.821 Send DATA 5 with ACK 1, ID 20213
+058.866 [1;37mRecv DATA 2 with [1;32mACK 0[1;37m, ID 10210[0m
+059.092 Send DATA 6 with ACK 2, ID 20214
+059.122 [1;37mRecv DATA 3 with [1;32mACK 1[1;37m, ID 10211[0m
+059.363 Send DATA 7 with ACK 3, ID 20215
+059.394 [1;37mRecv DATA 4 with [1;32mACK 2[1;37m, ID 10212[0m
+059.620 Send DATA 8 with ACK 4, ID 20216
+059.650 [1;37mRecv DATA 5 with [1;32mACK 3[1;37m, ID 10213[0m
+059.891 Send DATA 9 with ACK 5, ID 20217
+059.921 [1;37mRecv DATA 6 with [1;32mACK 4[1;37m, ID 10214[0m
+059.921 .... 215 packets received, 7497 bps, 93.72%, Err 6 (1.3e-05)
+060.147 Send DATA 10 with ACK 6, ID 20218
+060.177 [1;37mRecv DATA 7 with [1;32mACK 5[1;37m, ID 10215[0m
+060.419 Send DATA 11 with ACK 7, ID 20219
+060.449 [1;37mRecv DATA 8 with [1;32mACK 6[1;37m, ID 10216[0m
+060.675 Send DATA 12 with ACK 8, ID 20220
+060.705 [1;37mRecv DATA 9 with [1;32mACK 7[1;37m, ID 10217[0m
+060.947 Send DATA 13 with ACK 9, ID 20221
+060.962 [1;37mRecv DATA 10 with [1;32mACK 8[1;37m, ID 10218[0m
+061.203 Send DATA 14 with ACK 10, ID 20222
+061.233 [1;37mRecv DATA 11 with [1;32mACK 9[1;37m, ID 10219[0m
+061.474 Send DATA 15 with ACK 11, ID 20223
+061.505 [1;37mRecv DATA 12 with [1;32mACK 10[1;37m, ID 10220[0m
+061.731 Send DATA 0 with ACK 12, ID 20224
+061.761 [1;37mRecv DATA 13 with [1;32mACK 11[1;37m, ID 10221[0m
+062.002 Send DATA 1 with ACK 13, ID 20225
+062.032 [1;37mRecv DATA 14 with [1;32mACK 12[1;37m, ID 10222[0m
+062.032 .... 223 packets received, 7507 bps, 93.83%, Err 6 (1.2e-05)
+062.259 Send DATA 2 with ACK 14, ID 20226
+062.289 [1;37mRecv DATA 15 with [1;32mACK 13[1;37m, ID 10223[0m
+062.530 Send DATA 3 with ACK 15, ID 20227
+062.560 [1;37mRecv DATA 0 with [1;32mACK 14[1;37m, ID 10224[0m
+062.786 Send DATA 4 with ACK 0, ID 20228
+062.817 [1;31m**** Receiver Error, Bad CRC Checksum[0m
+062.817 [1;34mSend NAK 1[0m
+063.058 Send DATA 5 with ACK 0, ID 20229
+063.088 [1;31m**** Receiver Error, Bad CRC Checksum[0m
+063.329 Send DATA 6 with ACK 0, ID 20230
+063.344 [1;37mRecv DATA 3 with [1;32mACK 1[1;37m, ID 10227[0m
+063.586 Send DATA 7 with ACK 0, ID 20231
+063.616 [1;37mRecv DATA 4 with [1;32mACK 2[1;37m, ID 10228[0m
+063.857 [1;37mRecv DATA 5 with [1;32mACK 3[1;37m, ID 10229[0m
+063.857 Send DATA 8 with ACK 0, ID 20232
+064.113 Send DATA 9 with ACK 0, ID 20233
+064.128 [1;37mRecv DATA 1 with [1;32mACK 4[1;37m, ID 10225[0m
+064.128 .... 226 packets received, 7354 bps, 91.93%, Err 8 (1.6e-05)
+064.385 [1;37mRecv DATA 6 with [1;32mACK 5[1;37m, ID 10230[0m
+064.385 [1;34mSend NAK 2[0m
+064.385 Send DATA 10 with ACK 1, ID 20234
+064.656 Send DATA 11 with ACK 1, ID 20235
+064.671 [1;37mRecv DATA 7 with [1;32mACK 6[1;37m, ID 10231[0m
+064.913 Send DATA 12 with ACK 1, ID 20236
+064.928 [1;37mRecv DATA 8 with [1;32mACK 7[1;37m, ID 10232[0m
+065.184 Send DATA 13 with ACK 1, ID 20237
+065.214 [1;37mRecv DATA 2 with [1;32mACK 9[1;37m, ID 10226[0m
+065.440 Send DATA 14 with ACK 8, ID 20238
+065.486 [1;37mRecv DATA 9 with [1;32mACK 10[1;37m, ID 10233[0m
+065.712 Send DATA 15 with ACK 9, ID 20239
+065.893 [1;37mRecv DATA 3 with [1;32mACK 11[1;37m, ID 10227[0m
+065.893 [1;34mSend NAK 10[0m
+065.983 Send DATA 0 with ACK 9, ID 20240
+066.149 [1;37mRecv DATA 4 with [1;32mACK 12[1;37m, ID 10228[0m
+066.239 Send DATA 1 with ACK 9, ID 20241
+066.420 [1;37mRecv DATA 5 with [1;32mACK 13[1;37m, ID 10229[0m
+066.511 Send DATA 2 with ACK 9, ID 20242
+066.692 [1;37mRecv DATA 10 with [1;32mACK 14[1;37m, ID 10234[0m
+066.692 .... 235 packets received, 7348 bps, 91.85%, Err 8 (1.5e-05)
+066.767 Send DATA 3 with ACK 10, ID 20243
+066.948 [1;37mRecv DATA 10 with [1;32mACK 15[1;37m, ID 10234[0m
+066.948 [1;34mSend NAK 11[0m
+067.039 Send DATA 4 with ACK 10, ID 20244
+067.204 [1;37mRecv DATA 11 with [1;32mACK 0[1;37m, ID 10235[0m
+067.310 Send DATA 5 with ACK 11, ID 20245
+067.476 [1;37mRecv DATA 12 with [1;32mACK 1[1;37m, ID 10236[0m
+067.566 Send DATA 6 with ACK 12, ID 20246
+067.747 [1;37mRecv DATA 13 with [1;32mACK 2[1;37m, ID 10237[0m
+067.838 Send DATA 7 with ACK 13, ID 20247
+068.004 [1;37mRecv DATA 11 with [1;32mACK 3[1;37m, ID 10235[0m
+068.004 [1;34mSend NAK 14[0m
+068.109 Send DATA 8 with ACK 13, ID 20248
+068.275 [1;37mRecv DATA 14 with [1;32mACK 4[1;37m, ID 10238[0m
+068.365 Send DATA 9 with ACK 14, ID 20249
+068.531 [1;37mRecv DATA 15 with [1;32mACK 5[1;37m, ID 10239[0m
+068.637 Send DATA 10 with ACK 15, ID 20250
+068.803 [1;37mRecv DATA 0 with [1;32mACK 6[1;37m, ID 10240[0m
+068.803 .... 241 packets received, 7300 bps, 91.25%, Err 8 (1.5e-05)
+068.893 Send DATA 11 with ACK 0, ID 20251
+069.059 [1;37mRecv DATA 14 with [1;32mACK 7[1;37m, ID 10238[0m
+069.059 [1;34mSend NAK 1[0m
+069.165 Send DATA 12 with ACK 0, ID 20252
+069.316 [1;37mRecv DATA 1 with [1;32mACK 8[1;37m, ID 10241[0m
+069.436 Send DATA 13 with ACK 1, ID 20253
+069.572 [1;37mRecv DATA 2 with [1;32mACK 9[1;37m, ID 10242[0m
+069.692 Send DATA 14 with ACK 2, ID 20254
+069.843 [1;37mRecv DATA 3 with [1;32mACK 10[1;37m, ID 10243[0m
+069.964 Send DATA 15 with ACK 3, ID 20255
+070.099 [1;37mRecv DATA 1 with [1;32mACK 11[1;37m, ID 10241[0m
+070.099 [1;34mSend NAK 4[0m
+070.235 Send DATA 0 with ACK 3, ID 20256
+070.371 [1;37mRecv DATA 4 with [1;32mACK 12[1;37m, ID 10244[0m
+070.491 Send DATA 1 with ACK 4, ID 20257
+070.627 [1;37mRecv DATA 5 with [1;32mACK 13[1;37m, ID 10245[0m
+070.763 Send DATA 2 with ACK 5, ID 20258
+070.898 [1;31m**** Receiver Error, Bad CRC Checksum[0m
+070.898 [1;34mSend NAK 6[0m
+071.034 Send DATA 3 with ACK 5, ID 20259
+071.170 [1;37mRecv DATA 4 with [1;32mACK 15[1;37m, ID 10244[0m
+071.291 Send DATA 4 with ACK 5, ID 20260
+071.426 [1;37mRecv DATA 7 with [1;32mACK 0[1;37m, ID 10247[0m
+071.562 Send DATA 5 with ACK 5, ID 20261
+071.683 [1;37mRecv DATA 8 with [1;32mACK 1[1;37m, ID 10248[0m
+071.818 Send DATA 6 with ACK 5, ID 20262
+071.954 [1;37mRecv DATA 6 with [1;32mACK 2[1;37m, ID 10246[0m
+071.954 .... 247 packets received, 7149 bps, 89.36%, Err 9 (1.6e-05)
+072.090 Send DATA 7 with ACK 8, ID 20263
+072.210 [1;37mRecv DATA 9 with [1;32mACK 3[1;37m, ID 10249[0m
+072.346 Send DATA 8 with ACK 9, ID 20264
+072.482 [1;37mRecv DATA 10 with [1;32mACK 4[1;37m, ID 10250[0m
+072.617 Send DATA 9 with ACK 10, ID 20265
+072.738 [1;37mRecv DATA 11 with [1;32mACK 5[1;37m, ID 10251[0m
+072.874 Send DATA 10 with ACK 11, ID 20266
+073.009 [1;37mRecv DATA 12 with [1;32mACK 6[1;37m, ID 10252[0m
+073.145 Send DATA 11 with ACK 12, ID 20267
+073.266 [1;37mRecv DATA 13 with [1;32mACK 7[1;37m, ID 10253[0m
+073.401 Send DATA 12 with ACK 13, ID 20268
+073.537 [1;37mRecv DATA 14 with [1;32mACK 8[1;37m, ID 10254[0m
+073.673 Send DATA 13 with ACK 14, ID 20269
+073.793 [1;37mRecv DATA 15 with [1;32mACK 9[1;37m, ID 10255[0m
+073.929 Send DATA 14 with ACK 15, ID 20270
+074.065 [1;37mRecv DATA 0 with [1;32mACK 10[1;37m, ID 10256[0m
+074.065 .... 257 packets received, 7223 bps, 90.28%, Err 9 (1.6e-05)
+074.200 Send DATA 15 with ACK 0, ID 20271
+074.321 [1;37mRecv DATA 1 with [1;32mACK 11[1;37m, ID 10257[0m
+074.457 Send DATA 0 with ACK 1, ID 20272
+074.607 [1;37mRecv DATA 2 with [1;32mACK 12[1;37m, ID 10258[0m
+074.728 Send DATA 1 with ACK 2, ID 20273
+074.849 [1;37mRecv DATA 3 with [1;32mACK 13[1;37m, ID 10259[0m
+074.984 Send DATA 2 with ACK 3, ID 20274
+075.120 [1;37mRecv DATA 4 with [1;32mACK 14[1;37m, ID 10260[0m
+075.256 Send DATA 3 with ACK 4, ID 20275
+075.376 [1;37mRecv DATA 5 with [1;32mACK 15[1;37m, ID 10261[0m
+075.512 Send DATA 4 with ACK 5, ID 20276
+075.648 [1;37mRecv DATA 6 with [1;32mACK 0[1;37m, ID 10262[0m
+075.783 Send DATA 5 with ACK 6, ID 20277
+075.904 [1;37mRecv DATA 7 with [1;32mACK 1[1;37m, ID 10263[0m
+076.040 Send DATA 6 with ACK 7, ID 20278
+076.190 [1;37mRecv DATA 8 with [1;32mACK 2[1;37m, ID 10264[0m
+076.190 .... 265 packets received, 7236 bps, 90.46%, Err 9 (1.5e-05)
+076.311 Send DATA 7 with ACK 8, ID 20279
+076.447 [1;37mRecv DATA 9 with [1;32mACK 3[1;37m, ID 10265[0m
+076.567 Send DATA 8 with ACK 9, ID 20280
+076.718 [1;37mRecv DATA 10 with [1;32mACK 4[1;37m, ID 10266[0m
+076.839 Send DATA 9 with ACK 10, ID 20281
+076.974 [1;37mRecv DATA 11 with [1;32mACK 5[1;37m, ID 10267[0m
+077.095 Send DATA 10 with ACK 11, ID 20282
+077.246 [1;37mRecv DATA 12 with [1;32mACK 6[1;37m, ID 10268[0m
+077.261 [1;35mRecv NAK 7[0m
+077.261 Send DATA 7 with ACK 12, ID 20279
+077.517 [1;37mRecv DATA 13 with [1;32mACK 6[1;37m, ID 10269[0m
+077.623 Send DATA 11 with ACK 13, ID 20283
+077.774 [1;37mRecv DATA 14 with [1;32mACK 6[1;37m, ID 10270[0m
+077.894 Send DATA 12 with ACK 14, ID 20284
+078.045 [1;37mRecv DATA 15 with [1;32mACK 6[1;37m, ID 10271[0m
+078.151 Send DATA 13 with ACK 15, ID 20285
+078.301 [1;37mRecv DATA 0 with [1;32mACK 6[1;37m, ID 10272[0m
+078.301 .... 273 packets received, 7251 bps, 90.64%, Err 9 (1.5e-05)
+078.422 Send DATA 14 with ACK 0, ID 20286
+078.573 [1;37mRecv DATA 1 with [1;32mACK 10[1;37m, ID 10273[0m
+078.678 Send DATA 15 with ACK 1, ID 20287
+078.829 [1;37mRecv DATA 2 with [1;32mACK 11[1;37m, ID 10274[0m
+078.950 Send DATA 0 with ACK 2, ID 20288
+079.100 [1;37mRecv DATA 3 with [1;32mACK 12[1;37m, ID 10275[0m
+079.206 Send DATA 1 with ACK 3, ID 20289
+079.357 [1;37mRecv DATA 4 with [1;32mACK 13[1;37m, ID 10276[0m
+079.477 Send DATA 2 with ACK 4, ID 20290
+079.628 [1;37mRecv DATA 5 with [1;32mACK 14[1;37m, ID 10277[0m
+079.734 Send DATA 3 with ACK 5, ID 20291
+079.884 [1;37mRecv DATA 6 with [1;32mACK 15[1;37m, ID 10278[0m
+080.005 Send DATA 4 with ACK 6, ID 20292
+080.156 [1;37mRecv DATA 7 with [1;32mACK 0[1;37m, ID 10279[0m
+080.261 Send DATA 5 with ACK 7, ID 20293
+080.412 [1;37mRecv DATA 8 with [1;32mACK 1[1;37m, ID 10280[0m
+080.412 .... 281 packets received, 7264 bps, 90.81%, Err 9 (1.4e-05)
+080.533 Send DATA 6 with ACK 8, ID 20294
+080.683 [1;37mRecv DATA 9 with [1;32mACK 2[1;37m, ID 10281[0m
+080.789 Send DATA 7 with ACK 9, ID 20295
+080.955 [1;37mRecv DATA 10 with [1;32mACK 3[1;37m, ID 10282[0m
+081.060 Send DATA 8 with ACK 10, ID 20296
+081.211 [1;37mRecv DATA 11 with [1;32mACK 4[1;37m, ID 10283[0m
+081.317 Send DATA 9 with ACK 11, ID 20297
+081.482 [1;37mRecv DATA 12 with [1;32mACK 5[1;37m, ID 10284[0m
+081.588 Send DATA 10 with ACK 12, ID 20298
+081.739 [1;37mRecv DATA 13 with [1;32mACK 6[1;37m, ID 10285[0m
+081.860 Send DATA 11 with ACK 13, ID 20299
+081.995 [1;37mRecv DATA 14 with [1;32mACK 7[1;37m, ID 10286[0m
+082.116 Send DATA 12 with ACK 14, ID 20300
+082.252 [1;37mRecv DATA 15 with [1;32mACK 8[1;37m, ID 10287[0m
+082.387 Send DATA 13 with ACK 15, ID 20301
+082.538 [1;37mRecv DATA 0 with [1;32mACK 9[1;37m, ID 10288[0m
+082.538 .... 289 packets received, 7276 bps, 90.95%, Err 9 (1.4e-05)
+082.644 Send DATA 14 with ACK 0, ID 20302
+082.795 [1;37mRecv DATA 1 with [1;

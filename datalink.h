@@ -47,8 +47,6 @@ typedef struct {
 */
 
 
-
-
 #define NONE          "\e[0m"         //清除颜色，即之后的打印为正常输出，之前的不受影响
 #define BLACK         "\e[0;30m"      //深黑
 #define L_BLACK       "\e[1;30m"      //亮黑，偏灰褐
