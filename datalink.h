@@ -1,34 +1,9 @@
-#define MAX_SEQ             15
-#define NR_BUFS             ((MAX_SEQ + 1)/2)
 
-typedef unsigned char u_char;
-
+/* FRAME kind */
+typedef unsigned char FRAME_KIND;
 #define FRAME_DATA 0
 #define FRAME_ACK 1
 #define FRAME_NAK 2
-
-#define DATA_TIMER 2000
-#define ACK_TIMER 1000
-
-typedef enum{
-    DATA,
-    ACK,
-    NAK
-}FRAME_KIND;
-
-typedef enum{
-    false,
-    true
-}boolean;
-
-typedef struct {
-	unsigned char kind; /* FRAME_DATA */
-    unsigned char seq;
-    unsigned char ack;          
-	unsigned char data[PKT_LEN];
-	unsigned int padding;
-}FRAME;
-
 /*  
     DATA Frame
     +=========+========+========+===============+========+
