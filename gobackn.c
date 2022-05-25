@@ -17,7 +17,6 @@ typedef struct frame {
 } FRAME;
 
 static bool no_nak = true;
-
 static int phl_ready = 0;
 
 static int between(seq_nr a, seq_nr b, seq_nr c) {
